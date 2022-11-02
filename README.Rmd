@@ -1,0 +1,45 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# brfssIA
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of brfssIA is to ...
+
+## Installation
+
+You can install the development version of brfssIA from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("heike/brfssIA")
+```
+
+## Example
+
+This is a basic example which shows you how to solve a common problem:
+
+```{r example}
+library(brfssIA)
+library(tidyverse)
+## basic example code
+data(brfss13IA)
+
+brfss13IA %>% count(DIABETE3)
+```
+
+
