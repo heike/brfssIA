@@ -14,3 +14,5 @@ Depends:
 LazyData: true
 LitrVersionUsed: 0.5.0
 LitrId: 0122776c3432d383289f303abc4f496e
+URL: https://github.com/heike/brfssIA
+BugReports: https://github.com/heike/brfssIA/issues
