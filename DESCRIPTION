@@ -1,0 +1,16 @@
+Package: brfssIA
+Title: BRFSS data for Iowa
+Version: 0.0.9000
+Authors@R: 
+    person("Heike", "Hofmann", , "hofmann@iastate.edu", role = c("aut", "cre"))
+Description: This package has a dataset.  It could also have some
+    functions, but for now all it has is some data.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
+Depends: 
+    R (>= 2.10)
+LazyData: true
+LitrVersionUsed: 0.5.0
+LitrId: 0122776c3432d383289f303abc4f496e
